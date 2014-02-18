@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OWJust4KidsTV"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "OWJust4KidsTV, controller logic Just4Kids"
   s.description  = <<-DESC
   
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.dependency 'OWTvmClient'
   s.dependency 'OWInAppPurchases'
   s.dependency 'Parse'
-  s.dependency 'OWParse', '0.2.4'
+  s.dependency 'OWParse'
   s.dependency 'OWImage'
 
   s.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => '"$(PODS_ROOT)/Parse"' }  
