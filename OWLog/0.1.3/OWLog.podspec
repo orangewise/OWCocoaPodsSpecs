@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '4.0'
   s.requires_arc = false
   s.source_files = 'Classes/ios/*'
-  s.dependency 'TestFlightSDK',    '~> 2.0.2'
+  s.dependency 'TestFlightSDK',    '~> 3.0.0'
 end
