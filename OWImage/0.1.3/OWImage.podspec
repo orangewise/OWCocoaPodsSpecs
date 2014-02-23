@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "OWImage"
   s.version      = "0.1.3"
-  s.summary      = "Image utilities"
+  s.summary      = "Image utilities."
   s.description  = <<-DESC
                     Downloading images for table cells.
                    DESC
