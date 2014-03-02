@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.ios.deployment_target = '5.0'
   s.requires_arc = true
-  s.dependency 'OWLog'
+  s.dependency 'OWLog', '~> 0.1.3'
   s.dependency 'FXImageView',  '~> 1.3.1'
 
   s.subspec 'Network' do |ns|
