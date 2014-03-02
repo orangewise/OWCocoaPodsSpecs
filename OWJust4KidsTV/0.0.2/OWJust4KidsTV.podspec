@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OWJust4KidsTV"
-  s.version      = "0.0.3"
+  s.version      = "0.0.2"
   s.summary      = "OWJust4KidsTV, controller logic Just4Kids"
   s.description  = <<-DESC
   
