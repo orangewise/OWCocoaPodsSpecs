@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.dependency 'AWSiOSSDK', '1.7.1'
   s.dependency 'OWTvmClient'
   s.dependency 'OWInAppPurchases'
-  s.dependency 'Parse', '~> 1.2.18''
+  s.dependency 'Parse', '~> 1.2.18'
   s.dependency 'OWParse', '~> 0.2.5'
   s.dependency 'OWImage'
 
