@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.ios.deployment_target = '5.0'
   s.requires_arc = false
-  s.dependency 'OWLog', '0.1.3'
-  s.dependency 'OWShared', '0.0.4'
+  s.dependency 'OWLog', '~> 0.1.3'
+  s.dependency 'OWShared', '~> 0.0.4'
   s.dependency 'AWSiOSSDK', '1.7.1'
 
 end
