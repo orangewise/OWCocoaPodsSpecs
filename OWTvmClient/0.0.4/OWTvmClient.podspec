@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://orangewise.com"
   s.license      = {:type => "Private", :text => ""}
   s.author       = { "ronald (MacBookie Pro)" => "ronald@orangewise.com" }
-  s.source       = { :git => "https://github.com/orangewise/owtvmclient.git", :tag => s.version.to_s  }
+  s.source       = { :git => "orangewi@orangewise.com:/home/orangewi/repositories/owtvmclient.git", :tag => s.version.to_s  }
 
   s.source_files = 'Classes/ios/*'
   s.platform     = :ios, '5.0'
